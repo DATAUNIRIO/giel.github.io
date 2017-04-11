@@ -1,0 +1,29 @@
+name: "Grupo de Investigação Eleitoral - GIEL"
+output_dir: "."
+navbar:
+  title: "GIEL"
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "Projeto"
+      icon: fa-user 
+      href: Projeto.html
+    - text: "Mídia"
+      icon: fa-user 
+      href: Midia.html
+    - text: "Banco de dados"
+      icon: fa-file-pdf-o
+      href: Bancodedados.html
+    - text: "Blog"
+      icon: fa-rss
+      href: https://gae.uniriotec.br/  
+  right:
+    - text: "Entre em contato"
+      icon: fa-envelope-o
+      href: https://gae.uniriotec.br/  
+output:
+  html_document:
+    theme: journal
+    highlight: zenburn
